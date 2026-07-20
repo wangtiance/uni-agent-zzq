@@ -49,6 +49,7 @@ actor_rollout_ref:
     enable_chunked_prefill: true
     max_num_batched_tokens: 135168
     disable_log_stats: false
+    enforce_eager: true
 
     val_kwargs:
       temperature: 1.0
